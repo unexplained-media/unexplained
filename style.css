@@ -21,11 +21,13 @@ left: 0;
 
 right: 0;
 
-height: 100px;
+height: 50px;
 
 line-height: 50px;
 
 background-color:blue;
+
+border: 2px black;
 
 }
 
@@ -39,7 +41,6 @@ height: 50px;
 
 color:white;
 
-border: 2px black;
 }
 
 
