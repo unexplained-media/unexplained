@@ -36,7 +36,6 @@ display: inline;
 
 height: 50px;
 
-border: 5px black;
 }
 
 
@@ -44,6 +43,7 @@ border: 5px black;
 headerul {
 
 padding: 0;
+border: 5px black;
 
 }
 
