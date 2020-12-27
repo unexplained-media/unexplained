@@ -37,8 +37,9 @@ display: inline;
 
 height: 50px;
 
-color:blue;
+color:white;
 
+border: 2px black;
 }
 
 
@@ -77,5 +78,4 @@ text-align: center;
 
 p {
 text-align: center;
-color: blue
 }
