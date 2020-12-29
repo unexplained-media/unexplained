@@ -12,7 +12,7 @@ font-family: Bahnschrift SemiBold;
 
 header {
 
-display: flex;
+display: block;
 
 position: fixed;
 
