@@ -16,7 +16,7 @@ display: block;
 
 position: fixed;
 
-top: 30;
+top: 0;
 
 left: 0;
 
@@ -24,7 +24,7 @@ right: 0;
 
 height: 50px;
 
-line-height: 50px;
+line-height: 100px;
 
 background-color: red;
 
