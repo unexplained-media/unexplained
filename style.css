@@ -113,6 +113,7 @@ body {
 margin: 0;
 margin-top: 50;
 font-family: Bahnschrift SemiBold;
+text-decoration: none;
 }
 
 /*HEADER BOX*/
@@ -128,20 +129,11 @@ background-color: red;
 }
 
 
-.navlinks a {
-  color: white;
-}
-
-/*GETS RID OF THE UNDERLINE ON LINKS*/
-a {
-    text-decoration: none;
-    list-style: none;
-}
-
 /* SHOWS THE HEADER TEXT*/
 header * {
 display: inline;
 height: 50px;
+text-decoration: none;
 }
 
 headerul {
@@ -151,6 +143,15 @@ padding: 0;
 /*space between header words*/
 header li {
 margin-left: 20px;
+}
+
+.navlinks a {
+  color: white;
+}
+
+/*GETS RID OF THE BULLET POINTS ON LINKS*/
+a {
+    list-style: none;
 }
 
 
