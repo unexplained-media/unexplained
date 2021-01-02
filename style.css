@@ -113,7 +113,6 @@ body {
 margin: 0;
 margin-top: 50;
 font-family: Bahnschrift SemiBold;
-text-decoration: none;
 }
 
 /*HEADER BOX*/
@@ -134,27 +133,25 @@ header * {
 display: inline;
 height: 50px;
 text-decoration: none;
+color: white;
+font-size: 18px
+margin-left: 60px;
 }
 
-headerul {
-padding: 0;
+header *:hover{
+  color: blue;
 }
+
 
 /*space between header words*/
 header li {
-margin-left: 20px;
-}
-
-.navlinks a {
-  color: white;
+margin-left: 35px;
 }
 
 /*GETS RID OF THE BULLET POINTS ON LINKS*/
 a {
     list-style: none;
 }
-
-
 
 section {
 
