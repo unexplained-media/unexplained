@@ -135,6 +135,7 @@ background-color: red;
 /*GETS RID OF THE UNDERLINE ON LINKS*/
 a {
     text-decoration: none;
+    list-style: none;
 }
 
 /* SHOWS THE HEADER TEXT*/
