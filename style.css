@@ -191,6 +191,7 @@ main {
 
 .index-img-1 {
   width: 50px;
+  position: absolute; left: 10px;
 
 }
 .index-links div {
@@ -199,7 +200,7 @@ main {
   height: 100px;
   align-items: center;
   display: block;
-  color: blue;
+  position: inherit; left: 20px;
 }
 p {
   font-size: 1.5em;
@@ -208,6 +209,9 @@ p {
 section h3 {
   font-size: 1.5em;
   color: black;
+}
+section h3:hover {
+  color: blue;
 }
 section h2 {
   font-size: 2em;
