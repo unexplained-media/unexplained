@@ -201,8 +201,9 @@ main {
   position: inherit; center: 0px
 }
 p {
-  font-size: 1.5em;
-  padding: 30px 30px;
+  font-size: 1em;
+  padding: 30px 0px;
+  color: black;
 }
 section h3 {
   font-size: 1.25em;
