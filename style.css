@@ -110,13 +110,13 @@ input, select {
 /* MY CODE STARTS HERE */
 
 body {
-margin: 0;
-margin-top: 50;
-font-family: Bahnschrift SemiBold;
+  margin: 0;
+  margin-top: 50;
+  font-family: Bahnschrift SemiBold;
 }
 
 section h1 {
-width: 100%
+  width: 100%
 }
 
 .wrapper {
@@ -126,29 +126,29 @@ width: 100%
 }
 /*HEADER BOX*/
 header {
-display: inline-block;
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-height: 100px;
-line-height: 50px;
-background-color: white;
-width: 100%
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  line-height: 50px;
+  background-color: white;
+  width: 100%
 }
 
 
 /* SHOWS THE HEADER TEXT*/
 header * {
-display: inline-block;
-height: 10px;
-text-decoration: none;
-color: black;
-font-weight: bolder;
-font-size: 18px
-margin: 0 auto;
-text-align: center;
-padding: 3px 5px
+  display: inline-block;
+  height: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 18px
+  margin: 0 auto;
+  text-align: center;
+  padding: 3px 5px
 }
 
 header *:hover{
@@ -162,25 +162,37 @@ header .header-logo {
 }
 /*space between header words*/
 header li {
-margin-left: 30px;
+  margin-left: 30px;
 }
 
 /*GETS RID OF THE BULLET POINTS ON LINKS*/
 a {
-    list-style: none;
+  list-style: none;
 }
 
 .header-logo {
   width: 285px;
   height: 50px;
 }
+
+.frontpage {
+  width: 100%;
+  height: calc(100vh - 300px);
+}
+
+.frontpage h1 {
+  text-align: center;
+  align-items: center;
+}
+
 /*MAKES CENTRAL TEXT APPEAR*/
 main {
-height: 200vh;
-display: flex;
-align-items: center;
-text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
+
 
 p {
   font-size: 1.5em;
@@ -189,10 +201,12 @@ p {
 }
 
 section h2 {
-padding: 30px 30px;
-font-size: 2em;
-text-align: left;
+  padding: 30px 30px;
+  font-size: 2em;
+  text-align: left;
 }
 
 section h1 {
   font-size: 3.5em;
+  text-align: center;
+  align-items: center;
