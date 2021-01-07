@@ -190,12 +190,13 @@ main {
 }
 
 .index-img-1 {
-  width: 50px;
+  width: 25%;
   position: absolute; left: 10px;
 
 }
 .index-links div {
   margin: 10px;
+  margin-left: 100px;
   width: calc(100% - 20px);
   height: 100px;
   align-items: center;
