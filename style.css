@@ -207,12 +207,14 @@ p {
 }
 section h3 {
   font-size: 1.5em;
+  color: black;
 }
 section h2 {
   font-size: 2em;
   text-align: left;
   text-decoration: none;
   color: black ;
+  padding: 20px
 }
 section h1 {
   font-size: 3.5em;
