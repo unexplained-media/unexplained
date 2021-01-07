@@ -109,20 +109,21 @@ input, select {
 
 /* MY CODE STARTS HERE */
 
+* {
+  text-decoration: none;
+}
 body {
   margin: 0;
   margin-top: 50;
   font-family: Bahnschrift SemiBold;
+  text-decoration: none;
 }
-
 section h1 {
   width: 100%
 }
-
 .wrapper {
   margin: 0 auto 0 60px;
   width: 1000px;
-
 }
 /*HEADER BOX*/
 header {
@@ -136,8 +137,6 @@ header {
   background-color: white;
   width: 100%
 }
-
-
 /* SHOWS THE HEADER TEXT*/
 header * {
   display: inline-block;
@@ -150,11 +149,9 @@ header * {
   text-align: center;
   padding: 3px 5px
 }
-
 header *:hover{
   color: blue;
 }
-
 header .header-logo {
   display: block;
   margin: 0 auto;
@@ -164,77 +161,66 @@ header .header-logo {
 header li {
   margin-left: 30px;
 }
-
 /*GETS RID OF THE BULLET POINTS ON LINKS*/
 a {
   list-style: none;
 }
-
 .header-logo {
   width: 285px;
   height: 50px;
 }
-
 /*MAKES CENTRAL TEXT APPEAR*/
 main {
   height: 100vh;
-  display: flex;
+  display: block;
   align-items: center;
   text-align: center;
 }
-
 .frontpage {
   width: 100%;
   height: calc(100vh - 300px);
   text-align: center;
   align-items: center;
+  display: table;
 }
-
 .front-page-article {
   width: 100%;
   align-items: center;
+  margin: 80px 0px;
 }
-
 .index-article-1 {
   margin: 10px;
   width: calc(100% - 20px);
   height: 100px;
   align-items: center;
 }
-
 .index-article-2 {
   margin: 10px;
   width: calc(100% - 20px);
   height: 100px;
   align-items: center;
 }
-
 .index-article-3 {
   margin: 10px;
   width: calc(100% - 20px);
   height: 100px;
   align-items: center;
 }
-
 .index-article-4 {
   margin: 10px;
   width: calc(100% - 20px);
   height: 100px;
   align-items: center;
 }
-
 p {
   font-size: 1.5em;
   padding: 30px 30px;
-
 }
-
 section h2 {
   font-size: 2em;
   text-align: left;
   text-decoration: none;
 }
-
 section h1 {
   font-size: 3.5em;
   text-align: center;
