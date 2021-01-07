@@ -178,12 +178,18 @@ a {
 .frontpage {
   width: 100%;
   height: calc(100vh - 300px);
+  display: table;
 }
 
 .frontpage h1 {
   text-align: center;
   align-items: center;
   line-height: 70px
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /*MAKES CENTRAL TEXT APPEAR*/
@@ -202,7 +208,7 @@ p {
 }
 
 section h2 {
-  padding: 30px 30px;
+
   font-size: 2em;
   text-align: left;
 }
