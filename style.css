@@ -158,7 +158,7 @@ header *:hover{
 header .header-logo {
   display: block;
   margin: 0 auto;
-  padding: 0px 45px
+  padding: 5px 45px
 }
 /*space between header words*/
 header li {
