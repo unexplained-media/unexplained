@@ -146,6 +146,8 @@ text-decoration: none;
 color: pink;
 font-size: 18px
 margin: 0 auto;
+text-align: center;
+padding: 0px 5px
 }
 
 header *:hover{
@@ -158,7 +160,7 @@ header .header-logo {
 }
 /*space between header words*/
 header li {
-margin-left: 60px;
+margin-left: 30px;
 }
 
 /*GETS RID OF THE BULLET POINTS ON LINKS*/
