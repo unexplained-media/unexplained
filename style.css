@@ -175,22 +175,7 @@ a {
   height: 50px;
 }
 
-.frontpage {
-  width: 100%;
-  height: calc(100vh - 300px);
-  display: table;
-}
 
-.frontpage h1 {
-  text-align: center;
-  align-items: center;
-  line-height: 70px
-}
-
-.vertical-center {
-  display: table-cell;
-  vertical-align: middle;
-}
 
 /*MAKES CENTRAL TEXT APPEAR*/
 main {
@@ -200,7 +185,21 @@ main {
   text-align: center;
 }
 
+.frontpage {
+  width: 100%;
+  height: calc(100vh - 200px);
+  display: table;
+}
 
+.front-page-article {
+  width: 100%
+}
+
+.frontpage h1 {
+  text-align: center;
+  align-items: center;
+  line-height: 70px
+}
 p {
   font-size: 1.5em;
   padding: 30px 30px;
@@ -208,9 +207,9 @@ p {
 }
 
 section h2 {
-
   font-size: 2em;
   text-align: left;
+  text-decoration: none;
 }
 
 section h1 {
