@@ -183,6 +183,7 @@ a {
 .frontpage h1 {
   text-align: center;
   align-items: center;
+  line-height: 70px
 }
 
 /*MAKES CENTRAL TEXT APPEAR*/
