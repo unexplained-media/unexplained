@@ -150,7 +150,7 @@ header * {
   padding: 3px 5px
 }
 header *:hover{
-  color: blue;
+  color: orange;
 }
 header .header-logo {
   display: block;
@@ -177,12 +177,13 @@ main {
 @media only screen and (min-width: 1000px) {
   header {
     height: 50px;
-    line-height: 30px;
+    line-height: 25px;
+    position: fixed;
   }
   /* SHOWS THE HEADER TEXT*/
   header * {
     height: 0px;
-    margin: 0;
+    margin: 0px;
     float: right;
     font-size: 18px;
   }
@@ -191,8 +192,9 @@ main {
   }
   header .header-logo {
     margin: 0 auto;
-    padding: 5px 500px;
+    padding: 0px 500px;
     float: center;
+    display: fixed;
   }
   /*space between header words*/
   header li {
@@ -201,6 +203,7 @@ main {
   .header-logo {
     width: 285px;
     height: 50px;
+    display: fixed;
   }
 }
 
@@ -269,7 +272,7 @@ p {
   .front-page-article {
     width: 100%;
     align-items: center;
-    margin: 50px 0px 10px;
+    margin: 37px 0px;
   }
   /*SMALL PICS OF ARTICLES*/
   .index-img-1 {
@@ -287,13 +290,6 @@ p {
     position: inherit; center: 0px
     padding-bottom: 5px;
   }
-  /*TITLE OF ARTICLES*/
-  section h3 {
-    font-size: 35px;
-    color: black;
-    height: 0%;
-    padding-top: 5px;
-  }
   p {
     font-size: 25px;
     color: black;
@@ -310,7 +306,7 @@ section h3 {
   padding-top: 5px;
 }
 section h3:hover {
-  color: blue;
+  color: orange;
 }
 section h2 {
   font-size: 2em;
