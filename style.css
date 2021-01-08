@@ -174,6 +174,21 @@ main {
   height: 100vh;
   display: block;
 }
+
+.footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  margin-top: 700px;
+  background-color: black;
+}
+footer li {
+  list-style: none;
+  line-height: 20px;
+}
+footer li a {
+  display: block;
+  color: white;
+}
 /*FIRST PIC YOU SEE ON THE WEBSITE - GO TOGETHER*/
 .frontpage {
   width: 100%;
