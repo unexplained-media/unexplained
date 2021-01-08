@@ -117,6 +117,8 @@ body {
   margin-top: 50;
   font-family: Bahnschrift SemiBold;
   text-decoration: none;
+  padding: 0;
+  height: 100%;
 }
 section h1 {
   width: 100%
@@ -124,6 +126,9 @@ section h1 {
 .wrapper {
   margin: 0 auto 0 60px;
   width: 1000px;
+  min-height: 100%;
+  height: auto;
+  position: relative;
 }
 /*HEADER BOX*/
 header {
@@ -171,7 +176,7 @@ a {
 }
 /*MAKES CENTRAL TEXT APPEAR*/
 main {
-  height: 100vh;
+  height: 100%;
   display: block;
 }
 @media only screen and (min-width: 1000px) {
@@ -211,9 +216,11 @@ main {
 /*FOOTER*/
 .footer {
   width: calc(100% - 80px);
-  padding: 40px 40px;
-  margin-top: 700px;
+  padding: 0;
   background-color: black;
+  position: absolute;
+  bottom: 0;
+
 }
 footer li {
   list-style: none;
@@ -222,6 +229,25 @@ footer li {
 footer li a {
   display: block;
   color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  /*FOOTER*/
+  .footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+  }
+  footer li {
+    list-style: none;
+    line-height: 20px;
+  }
+  footer li a {
+    display: block;
+    color: white;
+  }
 }
 /*FIRST PIC YOU SEE ON THE WEBSITE - GO TOGETHER*/
 .frontpage {
