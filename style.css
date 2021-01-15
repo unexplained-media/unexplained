@@ -251,6 +251,13 @@ p {
 .see-more {
   margin-top: 100px;
   position: inherit; left: 0px;
+  border: 2px solid blue;
+}
+.page-1 {
+  border: 2px solid blue;
+}
+.page-2 {
+  border: 2px solid blue;
 }
 /*COMPUTER VERSION*/
 @media screen and (min-width: 1000px) {
