@@ -362,6 +362,7 @@ footer {
   overflow: hidden;
   list-style: none;
   line-height: 18px;
+  bottom: 0;
 }
 
 footer li a{
