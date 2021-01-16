@@ -325,6 +325,14 @@ p {
     width: 14%;
   }
 }
+/*TEXT IN ARTICLES*/
+.articles {
+  padding-bottom: 300px;
+  width: 75%;
+  margin-left: 50px;
+  display: block;
+  position: inherit;
+}
 /*TITLE OF ARTICLES*/
 section h3 {
   font-size: 1.25em;
@@ -354,6 +362,8 @@ section h4 {
   color: purple;
   font-size: 1em;
 }
+
+
 footer {
   background-color: black;
   padding: 40px 40px;
@@ -362,15 +372,8 @@ footer {
   overflow: hidden;
   list-style: none;
   line-height: 18px;
-
+  position: sticky;
+  bottom: 0;
 }
 footer li a{
   color: white;
-}
-
-.articles {
-  padding-bottom: 300px;
-  width: 75%;
-  margin-left: 50px;
-  overflow: clip;
-}
