@@ -260,9 +260,13 @@ p {
 }
 .page-1 {
   border: 2px solid blue;
+  padding: 4px 4px;
+  color: red;
 }
 .page-2 {
   border: 2px solid blue;
+  padding: 4px 4px;
+  color: red;
 }
 /*COMPUTER VERSION*/
 @media screen and (min-width: 1000px) {
