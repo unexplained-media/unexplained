@@ -363,7 +363,6 @@ footer {
   list-style: none;
   line-height: 18px;
   bottom: 0;
-  z-index: -1;
 }
 
 footer li a{
