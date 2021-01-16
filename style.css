@@ -362,8 +362,15 @@ footer {
   overflow: hidden;
   list-style: none;
   line-height: 18px;
-  bottom: 0;
+
 }
 footer li a{
   color: white;
+}
+
+.articles {
+  padding-bottom: 300px;
+  width: 75%;
+  margin-left: 50px;
+  overflow: clip;
 }
