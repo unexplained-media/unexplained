@@ -254,9 +254,11 @@ p {
   padding: 10px 20px;
   width: 35%;
   float: left;
+  color: blue;
 }
 .see-more: hover {
   border: 2px solid red;
+  color: red;
 }
 .page-1 {
   border: 2px solid blue;
@@ -306,6 +308,14 @@ p {
     font-family: 'Cormorant Garamond', serif;
     height: 80px;
     padding-top: 35px;
+  }
+  .see-more {
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 2px solid blue;
+    padding: 10px 20px;
+    width: 14%;
+    float: left;
   }
 }
 /*TITLE OF ARTICLES*/
