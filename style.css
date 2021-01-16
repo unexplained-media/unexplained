@@ -327,18 +327,31 @@ p {
 }
 /*TEXT IN ARTICLES*/
 .articles {
-  padding-bottom: 300px;
+
   width: 75%;
   margin-left: 50px;
   display: block;
 }
+
+.articles div {
+  position: static;
+  z-index: 100;
+
+
+
+}
+
+
 @media screen and (min-width: 1000px) {
   .articles {
     width: 65%;
-    
     height: 100%;
     margin: 0px 200px
   }
+  iframe {
+    padding: 10px 100px;
+  }
+
 
 }
 /*TITLE OF ARTICLES*/
