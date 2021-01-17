@@ -333,9 +333,12 @@ p {
   display: block;
 }
 
-.articles div {
-  position: static;
-  z-index: 100;
+.articles div .article-links{
+  width: 100%;
+  height: 150px;
+  display: block;
+  position: inherit; center: 0px
+  padding-bottom: 5px;
 }
 
 
