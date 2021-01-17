@@ -326,6 +326,7 @@ p {
   margin-left: 50px;
   display: block;
 }
+/*POSITIONING OF LINKS AND TEXT ON PHONE*/
 @media screen and (max-width: 1000px) {
   .article-text {
     margin-bottom: 90px;
@@ -333,9 +334,8 @@ p {
   .article-links {
     margin: 200px 0px 0px
   }
-
 }
-
+/*POSITIONING OF LINKS AND TEXT ON COMPUTER*/
 @media screen and (min-width: 1000px) {
   .articles {
     width: 65%;
@@ -346,8 +346,6 @@ p {
     width: 65%;
     margin: 120px 100px 0px;
   }
-
-
 }
 /*TITLE OF ARTICLES*/
 section h3 {
@@ -378,8 +376,6 @@ section h4 {
   color: purple;
   font-size: 1em;
 }
-
-
 footer {
   background-color: black;
   padding: 40px 40px;
