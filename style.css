@@ -330,9 +330,17 @@ p {
 @media screen and (max-width: 1000px) {
   .article-text {
     margin-bottom: 90px;
+    position: relative;
+    z-index: 1;
   }
   .article-links {
     margin: 200px 0px 0px
+  }
+  .article-links-instagram {
+    margin: 400px 0px 50px;
+  }
+  .article-links-bandcamp {
+    margin: 150px 0px 50px;
   }
 }
 /*POSITIONING OF LINKS AND TEXT ON COMPUTER*/
@@ -342,9 +350,20 @@ p {
     height: 100%;
     margin: 0px 200px
   }
+  .article-text {
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 0;
+  }
   .article-links {
     width: 65%;
     margin: 120px 100px 0px;
+  }
+  .article-links-instagram {
+    margin: 300px 100px 50px;
+  }
+  .article-links-bandcamp {
+    margin: 100px 50px 50px;
   }
 }
 /*TITLE OF ARTICLES*/
