@@ -327,22 +327,20 @@ p {
   display: block;
 }
 /*POSITIONING OF LINKS AND TEXT ON PHONE*/
-@media screen and (max-width: 1000px) {
   .article-text {
-    margin-bottom: 90px;
+    margin-bottom: 250px;
     position: relative;
     z-index: 1;
   }
   .article-links {
-    margin: 200px 0px 0px
+    margin: 10px 0px 0px
   }
   .article-links-instagram {
-    margin: 400px 0px 50px;
+    margin: 300px 0px 50px;
   }
   .article-links-bandcamp {
     margin: 150px 0px 50px;
   }
-}
 /*POSITIONING OF LINKS AND TEXT ON COMPUTER*/
 @media screen and (min-width: 1000px) {
   .articles {
