@@ -280,6 +280,7 @@ main .articles {
 }
 main .articles h2 {
     font-family: Bahnschrift SemiBold;
+  }
 /*COMPUTER VERSION*/
 @media screen and (min-width: 1000px) {
   /*FIRST PIC YOU SEE ON THE WEBSITE - GO TOGETHER*/
