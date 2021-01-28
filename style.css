@@ -319,24 +319,25 @@ main .articles h2 {
   .index-img-1 {
     width: 15%;
     position: absolute; left: 30px;
-
   }
   /*TITLES OF ARTICLE*/
   .index-links div {
-    margin: 50px;
+    margin: 100px;
     margin-left: 225px;
     width: calc(100% - 450px);
-    height: 150px;
-    display: block;
-    position: inherit; center: 0px
-    padding-bottom: 5px;
+    height: 100px;
+  }
+  .index-links h4 {
+  }
+  .index-links h3{
   }
   p {
     font-size: 25px;
     color: black;
     font-family: 'Cormorant Garamond', serif;
     height: 80px;
-    padding-top: 35px;
+    padding-top: 25px;
+    flex: 3;
   }
 /*SEE MORE BUTTON*/
   .see-more {
