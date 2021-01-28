@@ -264,10 +264,10 @@ p {
 }
 /*SEE MORE BUTTON*/
 .see-more {
-  margin: 30px;
+  margin: 50px;
   border: 2px solid blue;
   padding: 10px 20px;
-  width: 35%;
+  width: 37%;
   float: left;
 }
 .see-more a {
@@ -338,15 +338,13 @@ main .articles h2 {
     height: 80px;
     padding-top: 35px;
   }
-
-  }
 /*SEE MORE BUTTON*/
   .see-more {
     margin: 50px;
     margin-left: 220px;
     border: 2px solid #0020C2;
     padding: 10px 20px;
-    width: 14%;
+    width: 11%;
   }
 }
 
