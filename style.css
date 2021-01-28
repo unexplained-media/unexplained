@@ -339,16 +339,16 @@ main .articles h2 {
 }
 /*POSITIONING OF LINKS AND TEXT ON PHONE*/
   .article-text {
-    margin-bottom: 230px;
+    margin-bottom: 0px;
     position: relative;
     z-index: 1;
     font:
   }
   .article-links {
-    margin: 40px 0px 0px
+    margin: 0px 0px 0px
   }
   .article-links-instagram {
-    margin: 100px 0px 0px;
+    margin: 0px 0px 0px;
   }
   .article-links-bandcamp {
     margin: 10px 0px 50px;
