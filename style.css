@@ -120,6 +120,7 @@ body {
   height: 100%;
   min-height: 100%;
 }
+
 section h1 {
   width: 100%
 }
@@ -207,7 +208,6 @@ main {
   }
 }
 
-
 /*FIRST PIC YOU SEE ON THE WEBSITE - GO TOGETHER*/
 .frontpage {
   width: 100%;
@@ -274,6 +274,12 @@ p {
 .page-2:hover {
   color: blue;
 }
+main .articles {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+main .articles h2 {
+    font-family: Bahnschrift SemiBold;
 /*COMPUTER VERSION*/
 @media screen and (min-width: 1000px) {
   /*FIRST PIC YOU SEE ON THE WEBSITE - GO TOGETHER*/
@@ -312,12 +318,7 @@ p {
     height: 80px;
     padding-top: 35px;
   }
-  main .articles {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
-  }
-  main .articles h2 {
-      font-family: Bahnschrift SemiBold;
+
   }
 /*SEE MORE BUTTON*/
   .see-more {
@@ -328,6 +329,7 @@ p {
     width: 14%;
   }
 }
+
 /*TEXT IN ARTICLES*/
 .articles {
   width: 75%;
