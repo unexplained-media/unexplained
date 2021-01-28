@@ -361,19 +361,19 @@ main .articles h2 {
     margin: 0px 200px
   }
   .article-text {
-    margin-bottom: 90px;
+    margin-bottom: 0px;
     position: relative;
     z-index: 0;
   }
   .article-links {
     width: 65%;
-    margin: 80px 100px 0px;
+    margin: 0px 100px 0px;
   }
   .article-links-instagram {
-    margin: 100px 100px 50px;
+    margin: 0px 100px 50px;
   }
   .article-links-bandcamp {
-    margin: 100px 50px 50px;
+    margin: 0px 70px 0px;
   }
 }
 /*TITLE OF ARTICLES*/
