@@ -217,39 +217,48 @@ main {
 .index-links div {
   margin: 100px 35px 50px;
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: block;
   position: inherit; center: 0px
+  border: 2px solid black;
 }
 .index-links h4 {
   height: 20px;
+  padding-top: 25px;
 }
 p {
   font-size: 1.25em;
   color: black;
   font-family: 'Cormorant Garamond', serif;
   height: 200px;
-  padding-top: 310px;
+  padding-top: 340px;
   width: 80%;
+}
+p:hover {
+  color: red;
 }
 /*SEE MORE BUTTON*/
 .see-more {
   margin: 50px;
-  border: 2px solid blue;
+  border: 2px solid black;
   padding: 10px 20px;
   width: 37%;
   float: left;
 }
 .see-more a {
-  color: blue;
+  color: black;
 }
 .see-more a:hover {
   color: red;
 }
 /*PAGE NAVIGATION*/
+.other-pages {
+  margin-left: 100px;
+  margin-top: 80px;
+}
 .page-1 {
   border: 2px solid blue;
-  padding: 4px 4px;
+  padding: 4px 30px;
   color: red;
 }
 .page-1:hover {
@@ -257,7 +266,7 @@ p {
 }
 .page-2 {
   border: 2px solid blue;
-  padding: 4px 4px;
+  padding: 4px 30px;
   color: red;
 }
 .page-2:hover {
@@ -281,21 +290,30 @@ main .articles h2 {
   /*TITLES OF ARTICLE*/
   .index-links div {
     margin: 100px;
-    margin-left: 30px;
-    height: 450px;
+    margin-left: 70px;
+    height: 480px;
     width: auto;
-
+    border: 2px solid black;
   }
   .index-links h3 {
     margin-left: 11px;
-    font-size: 50px;
-    padding-bottom: 50px;
+    font-size: 40px;
+    padding-bottom: 20px;
   }
   .index-links h4 {
     height: 20px;
     padding-bottom: 20px;
     margin-left: 11px;
     font-size: 35px;
+  }
+  .index-links h2 {
+    font-size: 50px;
+    margin-left: 50px;
+  }
+  div h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    color: black;
   }
   p {
     font-size: 30px;
@@ -310,11 +328,30 @@ main .articles h2 {
 
 /*SEE MORE BUTTON*/
   .see-more {
-    margin: 50px;
+    margin: 40px;
     margin-left: 220px;
-    border: 2px solid #0020C2;
+    border: 2px solid black;
     padding: 10px 20px;
-    width: 11%;
+    width: 17%;
+    font-size: 25px;
+  }
+  /*PAGE NAVIGATION*/
+  .other-pages {
+    margin-left: 250px;
+    margin-bottom: 80px;
+  }
+  .page-1 {
+    border: 2px solid blue;
+    padding: 4px 30px;
+    color: red;
+  }
+  .page-1:hover {
+    color: blue;
+  }
+  .page-2 {
+    border: 2px solid blue;
+    padding: 4px 30px;
+    color: red;
   }
 }
 
