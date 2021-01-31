@@ -193,9 +193,9 @@ main {
   }
   header .header-logo {
     margin: 0 auto;
-    padding: 0px 500px;
+    padding: 0px auto;
+    display: flex;
     float: center;
-    display: fixed;
   }
   /*space between header words*/
   header li {
