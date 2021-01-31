@@ -179,6 +179,7 @@ main {
     position: fixed;
     background-color: white;
     z-index: 1;
+    width: auto;
   }
   /* SHOWS THE HEADER TEXT*/
   header * {
