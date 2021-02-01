@@ -112,9 +112,12 @@ input, select {
 * {
   text-decoration: none;
 }
+@font-face {
+  font-family: Bahnschrift SemiBold;
+  src: url('.../Bahnschrift-SemiBold.woff2') format("woff2");
+}
 body {
   font-family: Bahnschrift SemiBold;
-  src: url(Bahnschrift SemiBold.woff2) format("woff2");
   text-decoration: none;
   height: 100%;
   width: 100%;
@@ -246,6 +249,10 @@ main {
 .index-links h2 {
   margin-left: 40px;
   font-size: 40px;
+}
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  src: url('https://fonts.google.com/specimen/Cormorant+Garamond?query=cor');
 }
 p {
   font-size: 1.25em;
