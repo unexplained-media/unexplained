@@ -452,6 +452,9 @@ main .articles h2 {
   .article-links-bandcamp {
     margin: 10px 0px 50px;
   }
+  .article-text a {
+    color: red;
+  }
 /*POSITIONING OF LINKS AND TEXT ON COMPUTER*/
 @media screen and (min-width: 1000px) {
   .articles {
