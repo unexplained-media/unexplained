@@ -151,7 +151,7 @@ header * {
   padding: 3px 5px
 }
 header *:hover{
-  color: orange;
+  color: red;
 }
 header .header-logo {
   display: block;
