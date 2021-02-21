@@ -301,6 +301,14 @@ p:hover {
 .page-2:hover {
   color: blue;
 }
+.page-3 {
+  border: 2px solid blue;
+  padding: 4px 30px;
+  color: red;
+}
+.page-3:hover {
+  color: blue;
+}
 main .articles {
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
