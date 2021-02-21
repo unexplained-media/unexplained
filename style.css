@@ -285,12 +285,12 @@ p:hover {
   margin-left: 100px;
   margin-top: 80px;
 }
-.page-1 {
+.pages {
   border: 2px solid blue;
   padding: 4px 30px;
   color: red;
 }
-.page-1:hover {
+.pages:hover {
   color: blue;
 }
 .page-2 {
