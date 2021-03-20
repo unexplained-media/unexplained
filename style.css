@@ -332,7 +332,7 @@ main .articles h2 {
   }
   div h5 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
+    font-size: 26px;
     color: black;
   }
   p {
@@ -506,6 +506,7 @@ section h4 {
   font-size: 1.25em;
   font-family: 'Cormorant Garamond', serif;
 }
+
 @media screen and (min-width: 1000px){
   /*TITLE OF ARTICLES ON COMPUTER*/
   section h4 {
