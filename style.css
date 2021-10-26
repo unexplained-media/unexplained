@@ -242,6 +242,9 @@ main {
   display: block;
   position: inherit; center: 0px
 }
+.index-category h4 {
+  padding-top: 25px
+}
 .index-links h4 {
   height: 20px;
   padding-top: 25px;
@@ -318,7 +321,7 @@ main .articles h2 {
   .index-links h3 {
     margin-left: 11px;
     font-size: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
   .index-links h4 {
     height: 20px;
