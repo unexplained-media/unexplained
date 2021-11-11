@@ -244,12 +244,16 @@ main {
   position: absolute; center;
   height: auto;
 }
+.index-links {
+  margin: auto;
+}
 /*TITLES OF ARTICLE*/
 .index-links div {
   margin-top: 20%;
   padding-left: 40px;
   width: 100%;
   height: 500px;
+  margin-bottom: 50px;
   display: block;
   position: inherit; center: 0px
 }
@@ -268,6 +272,7 @@ main {
   font-family: 'Cormorant Garamond', serif;
   src: url('https://fonts.google.com/specimen/Cormorant+Garamond?query=cor');
 }
+}
 p {
   font-size: 1.25em;
   color: black;
@@ -279,6 +284,7 @@ p {
 p:hover {
   color: red;
 }
+
 /*SEE MORE BUTTON*/
 .see-more {
   margin: 50px;
@@ -311,9 +317,12 @@ p:hover {
 main .articles {
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
+  width: 80%;
 }
 main .articles h2 {
     font-family: Bahnschrift SemiBold;
+    margin: 20px auto;
+
   }
 
 /* TABLET VERSION*/
