@@ -365,10 +365,9 @@ main .articles h2 {
   color: white;
   background-color: black;
   padding: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
   margin-top: 3px;
   text-decoration: none;
-  transition: background .5s;
   border-radius: 70px;
 }
 .head:hover {
