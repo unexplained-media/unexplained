@@ -134,21 +134,18 @@ header {
   left: 0;
   right: 0;
   height: 100px;
-  line-height: 50px;
+  line-height: 8px;
   background-color: white;
   width: 100%;
 }
 /* SHOWS THE HEADER TEXT*/
 header * {
   display: inline-block;
-  height: 10px;
-  text-decoration: none;
-  color: black;
+  height: 5px;
   font-weight: bolder;
   font-size: 18px
-  margin: 0 auto;
   text-align: center;
-  padding: 3px 5px
+  padding: 5px 5px
 }
 header *:hover{
   color: red;
@@ -160,7 +157,7 @@ header .header-logo {
 }
 /*space between header words*/
 header li {
-  margin-left: 26px;
+  margin-left: 10px;
 }
 /*GETS RID OF THE BULLET POINTS ON LINKS*/
 a {
@@ -169,6 +166,20 @@ a {
 .header-logo {
   width: 285px;
   height: 50px;
+}
+.head {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-decoration: none;
+  transition: background .5s;
+}
+.head:hover {
+    border: 3px solid black;
+    background-color: white;
+    margin-top: 10px;
 }
 /*MAKES CENTRAL TEXT APPEAR*/
 main {
@@ -192,7 +203,7 @@ main {
 }
 @media only screen and (min-width: 1000px) {
   header {
-    height: 20px;
+    height: 50px;
     line-height: 10px;
     position: fixed;
     width: auto;
