@@ -192,24 +192,22 @@ main {
 }
 @media only screen and (min-width: 1000px) {
   header {
-    height: 50px;
-    line-height: 25px;
+    height: 20px;
+    line-height: 10px;
     position: fixed;
-    background-color: white;
-    z-index: 1;
     width: auto;
   }
   /* SHOWS THE HEADER TEXT*/
   header * {
-    height: 0px;
     margin: 0px 10px;
     display: flex;
     float: left;
     font-size: 18px;
   }
   header *:hover{
-    color: red;
+    color: black;
   }
+
   header .header-logo {
     margin: 0 auto;
     padding: 0px auto;
@@ -351,6 +349,19 @@ main .articles h2 {
 }
 /*COMPUTER VERSION*/
 @media screen and (min-width: 1000px) {
+
+.head {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-top: 3px;
+  text-decoration: none;
+  transition: background .5s;
+}
+.head:hover {
+    border: 3px solid black;
+    background-color: white;
+}
 
   /*SMALL PICS OF ARTICLES*/
   .index-img-1 {
