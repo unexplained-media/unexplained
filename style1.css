@@ -134,7 +134,7 @@ header * {
   font-size: 18px
   padding: 5px 5px
   width: 400px;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 header *:hover{
   color: red;
