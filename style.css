@@ -141,7 +141,7 @@ header {
 /* SHOWS THE HEADER TEXT*/
 header * {
   display: inline-block;
-  height: 8px;
+  height: 10px;
   font-weight: bolder;
   font-size: 18px
   text-align: center;
@@ -369,6 +369,7 @@ main .articles h2 {
   margin-top: 0px;
   text-decoration: none;
   border-radius: 70px;
+  line-height: 12px;
 }
 .head:hover {
     border: 3px solid black;
@@ -376,6 +377,7 @@ main .articles h2 {
     background-color: white;
     border-radius: 70px;
 }
+
 
   /*SMALL PICS OF ARTICLES*/
   .index-img-1 {
