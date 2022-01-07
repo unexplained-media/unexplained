@@ -1,0 +1,537 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+/* MY CODE STARTS HERE */
+
+* {
+  text-decoration: none;
+}
+@font-face {
+  font-family: Bahnschrift SemiBold;
+  src: url('.../Bahnschrift-SemiBold.woff2') format("woff2");
+}
+body {
+  font-family: Bahnschrift SemiBold;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+/*HEADER BOX*/
+header {
+  line-height: 10px;
+  background-color: white;
+}
+/* SHOWS THE HEADER TEXT*/
+header * {
+  display: inline-block
+  height: 8px;
+  font-size: 18px
+  padding: 5px 5px
+  width: 400px;
+  margin: 10px auto;
+}
+header *:hover{
+  color: red;
+  font-weight: bold;
+}
+header ul {
+  width: 400px;
+  margin: 10px auto;
+}
+header .header-logo {
+  display: block;
+  margin: 0 auto;
+  padding: 0px 55px
+}
+.header-logo {
+  width: 285px;
+  height: 50px;
+}
+.head {
+  color: white;
+  background-color: black;
+  padding: 8px;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.head:hover {
+    border: 3px solid black;
+    background-color: white;
+    margin-top: 10px;
+}
+/*MAKES CENTRAL TEXT APPEAR*/
+main {
+  height: 100%;
+  display: block;
+}
+
+/*SMALL PICS OF ARTICLES*/
+.index-img-1 {
+  width: 80%;
+  position: absolute; center;
+  height: auto;
+}
+/*TITLES OF ARTICLE*/
+.index-links div {
+  margin-top: 20%;
+  padding-left: 40px;
+  width: 100%;
+  height: 550px;
+  display: block;
+  position: inherit; center: 0px
+}
+.index-category h4 {
+  padding-top: 25px
+}
+.index-links h4 {
+  height: 20px;
+  padding-top: 25px;
+}
+.index-links h2 {
+  margin-left: 40px;
+  font-size: 40px;
+}
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  src: url('https://fonts.google.com/specimen/Cormorant+Garamond?query=cor');
+}
+p {
+  font-size: 1.25em;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
+  height: 200px;
+  padding-top: 85%;
+  width: 80%;
+}
+p:hover {
+  color: red;
+}
+/*SEE MORE BUTTON*/
+.see-more {
+  margin: 50px;
+  margin-top: 100px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  width: 37%;
+  float: left;
+}
+.see-more a {
+  color: black;
+}
+.see-more a:hover {
+  color: red;
+}
+/*PAGE NAVIGATION*/
+.other-pages {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+.pages {
+  border: 2px solid blue;
+  padding: 4px 30px;
+  color: red;
+}
+.pages:hover {
+  color: blue;
+}
+
+main .articles {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+main .articles h2 {
+    font-family: Bahnschrift SemiBold;
+  }
+
+  /* TABLET DISPLAY */
+@media screen and (min-width: 750px) {
+  header {
+  height: 60px;
+  line-height: 30px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  width: auto;
+  }
+  .header-logo {
+    width: 285px;
+    height: 45px;
+    display: fixed;
+  }
+  .index-img-1 {
+      width: 330px;
+    }
+/*TITLES OF ARTICLE*/
+  .index-links div {
+      margin: 100px;
+      margin-left: 20px;
+      height: 480px;
+      width: auto;
+      border: 2px solid black;
+  }
+  .index-links h3 {
+    margin-left: 11px;
+    font-size: 40px;
+    padding-bottom: 25px;
+    }
+  .index-links h4 {
+    height: 20px;
+    padding-bottom: 20px;
+    margin-left: 11px;
+    font-size: 35px;
+    }
+  .index-links h2 {
+    font-size: 50px;
+    }
+  div h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: black;
+    }
+  p {
+    font-size: 25px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    width: 40%;
+    height: 100px;
+    padding-top: 15px;
+    flex: 3;
+    margin-left: 340px;
+    }
+  }
+
+
+/* COMPUTER DISPLAY */
+@media only screen and (min-width: 1000px) {
+  header {
+    height: 50px;
+    line-height: 10px;
+    position: fixed;
+    width: auto;
+  }
+  /* SHOWS THE HEADER TEXT*/
+  header * {
+    margin: 0px 10px;
+    display: flex;
+    float: left;
+    font-size: 18px;
+  }
+  header *:hover{
+    color: black;
+  }
+  header .header-logo {
+    margin: 0 auto;
+    padding: 0px auto;
+    display: flex;
+    float: center;
+  }
+  /*space between header words*/
+  header li {
+    margin-left: 5px;
+  }
+  .header-logo {
+    width: 285px;
+    height: 45px;
+    display: fixed;
+  }
+.head {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  padding-bottom: 14px;
+  margin-top: 3px;
+  text-decoration: none;
+  border-radius: 70px;
+}
+.head:hover {
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 70px;
+}
+  /*SMALL PICS OF ARTICLES*/
+  .index-img-1 {
+    width: 370px;
+    padding-left: 10px;
+  }
+  /*TITLES OF ARTICLE*/
+  .index-links div {
+    margin: 100px;
+    margin-left: 70px;
+    height: 520px;
+    border: 2px solid black;
+  }
+  .index-links h3 {
+    margin-left: 11px;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .index-links h4 {
+    height: 20px;
+    padding-bottom: 20px;
+    margin-left: 11px;
+    font-size: 35px;
+  }
+  .index-links h2 {
+    font-size: 50px;
+    margin-left: 90px;
+  }
+  div h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    color: black;
+  }
+  p {
+    font-size: 30px;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    width: 40%;
+    height: 80px;
+    padding-top: 45px;
+    flex: 3;
+    margin-left: 400px;
+  }
+/*SEE MORE BUTTON*/
+  .see-more {
+    margin: 40px;
+    margin-left: 220px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    width: 17%;
+    font-size: 25px;
+  }
+  /*PAGE NAVIGATION*/
+  .other-pages {
+    margin-left: 250px;
+    margin-bottom: 80px;
+  }
+  .page-1 {
+    border: 2px solid blue;
+    padding: 4px 30px;
+    color: red;
+  }
+  .page-1:hover {
+    color: blue;
+  }
+  .page-2 {
+    border: 2px solid blue;
+    padding: 4px 30px;
+    color: red;
+  }
+}
+
+
+
+
+/*TEXT IN ARTICLES*/
+.articles {
+  width: 75%;
+  margin-left: 50px;
+  display: block;
+  height: 100%;
+}
+/*POSITIONING OF LINKS AND TEXT ON PHONE*/
+  .article-text {
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    font:
+  }
+  .article-links {
+    margin: 0px 0px 0px
+  }
+  .article-links-instagram {
+    margin: 0px 0px 0px;
+  }
+  .article-links-bandcamp {
+    margin: 10px 0px 50px;
+  }
+  .article-text a {
+    color: red;
+  }
+/*POSITIONING OF LINKS AND TEXT ON COMPUTER*/
+@media screen and (min-width: 1000px) {
+  .articles {
+    width: 65%;
+    height: 100%;
+    margin: 0px 200px
+  }
+  .article-text {
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 0;
+  }
+  .article-links {
+    width: 65%;
+    margin: 0px 100px 0px;
+  }
+  .article-links-instagram {
+    margin: 0px 100px 50px;
+  }
+  .article-links-bandcamp {
+    margin: 0px 70px 0px;
+  }
+}
+/*TITLE OF ARTICLES*/
+section h3 {
+  font-size: 1.25em;
+  color: black;
+  height: 0%;
+  padding-top: 5px;
+}
+section h3:hover {
+  color: red;
+}
+@media screen and (min-width: 1000px){
+  /*TITLE OF ARTICLES ON COMPUTER*/
+  section h3 {
+    font-size: 1.6em;
+  }
+}
+section h2 {
+  font-size: 2em;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  padding-top: 120px;
+}
+section h1 {
+  font-size: 2em;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+section h4 {
+  color: #0B88F5;
+  font-size: 1.25em;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+@media screen and (min-width: 1000px){
+  /*TITLE OF ARTICLES ON COMPUTER*/
+  section h4 {
+    font-size: 1.3em;
+  }
+}
+footer {
+  background-color: black;
+  padding: 40px 40px;
+  height: 70px;
+  width: calc(100% - 80px);
+  overflow: hidden;
+  list-style: none;
+  line-height: 18px;
+  position: relative;
+  bottom: 0;
+  z-index: 0;
+}
+footer li a{
+  color: white;
