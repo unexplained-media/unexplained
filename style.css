@@ -366,7 +366,7 @@ main .articles h2 {
   background-color: black;
   padding: 10px;
   padding-bottom: 14px;
-  margin-top: 3px;
+  margin-top: 0px;
   text-decoration: none;
   border-radius: 70px;
 }
@@ -385,7 +385,7 @@ main .articles h2 {
   .index-links div {
     margin: 100px;
     margin-left: 70px;
-    height: 520px; 
+    height: 520px;
     border: 2px solid black;
   }
   .index-links h3 {
