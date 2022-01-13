@@ -121,7 +121,7 @@ input, select {
   src: url('https://fonts.google.com/specimen/Cormorant+Garamond?query=cor');
 }
 body {
-  font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+  font-family: "Bahnschrift SemiBold", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: none;
@@ -318,7 +318,7 @@ main .articles {
   font-size: 25px;
 }
 main .articles h2 {
-    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    font-family: "Bahnschrift SemiBold", sans-serif;
     font-style: normal;
     font-weight: normal;
   }
