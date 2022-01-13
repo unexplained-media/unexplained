@@ -264,6 +264,7 @@ main {
   margin-left: 40px;
   font-size: 40px;
 }
+
 @font-face {
   font-family: 'Cormorant Garamond', serif;
   font-style: normal;
@@ -315,7 +316,7 @@ main .articles {
   font-size: 25px;
 }
 main .articles h2 {
-    font-family: Bahnschrift SemiBold;
+    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
   }
 
 /* TABLET VERSION*/
