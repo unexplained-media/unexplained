@@ -272,8 +272,8 @@ main {
 p {
   font-size: 1.25em;
   color: black;
-  font-family: "Cormorant Garamond", serif;
-  font-style: normal;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
   font-weight: normal;
   height: 200px;
   padding-top: 85%;
@@ -312,8 +312,8 @@ p:hover {
 }
 
 main .articles {
-  font-family: "Cormorant Garamond", serif;
-  font-style: normal;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
   font-weight: normal;
   font-size: 25px;
 }
@@ -352,14 +352,18 @@ main .articles h2 {
 
   }
   div h5 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: italic;
+    font-weight: normal;
     font-size: 26px;
     color: black;
   }
   p {
     font-size: 25px;
     color: black;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: italic;
+    font-weight: normal;
     width: 40%;
     height: 100px;
     padding-top: 15px;
@@ -416,14 +420,18 @@ main .articles h2 {
     margin-left: 90px;
   }
   div h5 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: italic;
+    font-weight: normal;
     font-size: 30px;
     color: black;
   }
   p {
     font-size: 30px;
     color: black;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: italic;
+    font-weight: normal;
     width: 40%;
     height: 80px;
     padding-top: 45px;
@@ -542,7 +550,9 @@ section h1 {
 section h4 {
   color: #0B88F5;
   font-size: 1.25em;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 @media screen and (min-width: 1000px){
