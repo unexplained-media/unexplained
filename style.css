@@ -116,10 +116,14 @@ input, select {
   font-family: Bahnschrift SemiBold;
   src: url('.../Bahnschrift-SemiBold.woff2') format("woff2");
 }
+@font-face {
+  font-family: 'Cormorant Garamond', serif;
+  src: url('https://fonts.google.com/specimen/Cormorant+Garamond?query=cor');
+}
 body {
   font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: normal;
   text-decoration: none;
   height: 100%;
   width: 100%;
@@ -265,16 +269,12 @@ main {
   font-size: 40px;
 }
 
-@font-face {
-  font-family: 'Cormorant Garamond', serif;
-  src: url('https://fonts.google.com/specimen/Cormorant+Garamond?query=cor');
-}
 p {
   font-size: 1.25em;
   color: black;
   font-family: "Cormorant Garamond", serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: normal;
   height: 200px;
   padding-top: 85%;
   width: 80%;
@@ -313,10 +313,14 @@ p:hover {
 
 main .articles {
   font-family: "Cormorant Garamond", serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 25px;
 }
 main .articles h2 {
     font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
   }
 
 /* TABLET VERSION*/
