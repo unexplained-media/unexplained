@@ -318,7 +318,7 @@ main .articles {
   font-size: 25px;
 }
 main h2 {
-    font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
+    font-family: "Bahnschrift SemiBold";
     font-style: bold;
     font-weight: normal;
   }
