@@ -319,7 +319,7 @@ main .articles {
 }
 main .articles h2 {
     font-family: "Bahnschrift SemiBold", Helvetica, sans-serif;
-    font-style: normal;
+    font-style: bold;
     font-weight: normal;
   }
 
