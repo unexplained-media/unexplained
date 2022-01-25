@@ -128,7 +128,6 @@ body {
   height: 100%;
   width: 100%;
 }
-
 section h1 {
   width: 100%
 }
@@ -192,56 +191,6 @@ main {
   height: 100%;
   display: block;
 }
-@media screen and (min-width: 750px) {
-  header {
-  height: 60px;
-  line-height: 30px;
-  position: fixed;
-  background-color: white;
-  z-index: 1;
-  width: auto;
-  }
-  .header-logo {
-    width: 285px;
-    height: 45px;
-    display: fixed;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  header {
-    height: 50px;
-    line-height: 10px;
-    position: fixed;
-    width: auto;
-  }
-  /* SHOWS THE HEADER TEXT*/
-  header * {
-    margin: 0px 10px;
-    display: flex;
-    float: left;
-    font-size: 18px;
-  }
-  header *:hover{
-    color: black;
-  }
-
-  header .header-logo {
-    margin: 0 auto;
-    padding: 0px auto;
-    display: flex;
-    float: center;
-  }
-  /*space between header words*/
-  header li {
-    margin-left: 5px;
-  }
-  .header-logo {
-    width: 285px;
-    height: 45px;
-    display: fixed;
-  }
-}
-
 /*SMALL PICS OF ARTICLES*/
 .index-img-1 {
   width: 80%;
@@ -322,6 +271,85 @@ main h2 {
     font-style: bold;
     font-weight: normal;
   }
+  /*TEXT IN ARTICLES*/
+  .articles {
+    width: 75%;
+    margin-left: 50px;
+    display: block;
+    height: 100%;
+  }
+  /*POSITIONING OF LINKS AND TEXT ON PHONE*/
+    .article-text {
+      margin-bottom: 0px;
+      position: relative;
+      z-index: 1;
+      font:
+    }
+    .article-links {
+      margin: 0px 0px 0px
+    }
+    .article-links-instagram {
+      margin: 0px 0px 0px;
+    }
+    .article-links-bandcamp {
+      margin: 10px 0px 50px;
+    }
+    .article-text a {
+      color: red;
+    }
+
+/* TABLET VERSION */
+@media screen and (min-width: 750px) {
+  header {
+  height: 60px;
+  line-height: 30px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  width: auto;
+  }
+  .header-logo {
+    width: 285px;
+    height: 45px;
+    display: fixed;
+  }
+}
+
+/* COMPUTER VERSION */
+@media only screen and (min-width: 1000px) {
+  header {
+    height: 50px;
+    line-height: 10px;
+    position: fixed;
+    width: auto;
+  }
+  /* SHOWS THE HEADER TEXT*/
+  header * {
+    margin: 0px 10px;
+    display: flex;
+    float: left;
+    font-size: 18px;
+  }
+  header *:hover{
+    color: black;
+  }
+  header .header-logo {
+    margin: 0 auto;
+    padding: 0px auto;
+    display: flex;
+    float: center;
+  }
+  /*space between header words*/
+  header li {
+    margin-left: 5px;
+  }
+  .header-logo {
+    width: 285px;
+    height: 45px;
+    display: fixed;
+  }
+}
+
 
 /* TABLET VERSION*/
 @media screen and (min-width: 750px){
@@ -390,8 +418,6 @@ main h2 {
     background-color: white;
     border-radius: 70px;
 }
-
-
   /*SMALL PICS OF ARTICLES*/
   .index-img-1 {
     width: 370px;
@@ -467,33 +493,6 @@ main h2 {
     color: red;
   }
 }
-
-/*TEXT IN ARTICLES*/
-.articles {
-  width: 75%;
-  margin-left: 50px;
-  display: block;
-  height: 100%;
-}
-/*POSITIONING OF LINKS AND TEXT ON PHONE*/
-  .article-text {
-    margin-bottom: 0px;
-    position: relative;
-    z-index: 1;
-    font:
-  }
-  .article-links {
-    margin: 0px 0px 0px
-  }
-  .article-links-instagram {
-    margin: 0px 0px 0px;
-  }
-  .article-links-bandcamp {
-    margin: 10px 0px 50px;
-  }
-  .article-text a {
-    color: red;
-  }
 /*POSITIONING OF LINKS AND TEXT ON COMPUTER*/
 @media screen and (min-width: 1000px) {
   .articles {
