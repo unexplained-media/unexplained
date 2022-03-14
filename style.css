@@ -228,9 +228,6 @@ p {
   padding-top: 85%;
   width: 80%;
 }
-p:hover {
-  color: red;
-}
 /*SEE MORE BUTTON*/
 .see-more {
   margin: 50px;
@@ -293,9 +290,6 @@ main h2 {
     }
     .article-links-bandcamp {
       margin: 10px 0px 50px;
-    }
-    .article-text a {
-      color: red;
     }
 
 /* TABLET VERSION */
