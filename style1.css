@@ -229,22 +229,32 @@ footer li a{
 .article-pages .box {
   background: rgb(255,247,242);
   min-width: 250px;
-  height: 800px;
+  height: 110vh;
   line-height: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 10vh 0 10vh;
+
 }
 
 .article-pages h1{
   color: rgb(54, 36, 25);
   font-size: 26px;
+  padding: 8vh 0;
 }
 .article-pages h2 {
   color: rgb(54, 36, 25);
 }
 .box-image {
   height: 220px;
+  text-align: center;
 }
+.box-text {
+  text-align: center;
+}
+.box h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
 
 .box-text div{
   font-family: meno-banner, serif;
@@ -414,7 +424,7 @@ section.about {
     width: 85%;
     margin: auto;
     padding-top: 7vh;
-    height: 65vh;
+    height: 45vh;
   }
   .latest-articles p {
     width: 100%;
@@ -423,7 +433,7 @@ section.about {
     display: block;
   }
   .article-pages .box {
-    height: 100px;
+    height: 20vh;
     justify-content: center;
   }
   .box-image {
