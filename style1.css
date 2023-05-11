@@ -342,7 +342,7 @@ section.about {
 @media screen and (max-width:600px) {
  html, body {
   min-width: 0;
-  max-width: 100vh;
+  width: 100%;
   overflow-x: hidden;
   position: absolute;
 }
@@ -350,8 +350,8 @@ section.about {
 .nav-links {
   position: absolute;
   right: 0px;
-  top: 12vh;
-  height: 108vh;
+  top: 8vh;
+  height: 92vh;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -359,8 +359,9 @@ section.about {
   transition: transform 0.5 ease-in;
   z-index: 99;
   background-color: rgb(102,178,255);
+  font-size: 32px;
   }
-  
+
 .nav-links li {
     opacity: 0;
   }
