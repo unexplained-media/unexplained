@@ -432,19 +432,23 @@ section.about {
   .article-pages {
     display: block;
   }
+  .article-pages h1 {
+    padding: 3vh 0;
+  }
   .article-pages .box {
-    height: 20vh;
+    height: 65vh;
     justify-content: center;
+    padding: 0 5vh 0 5vh;
   }
   .box-image {
-    display: none;
+    height: 30vh;
   }
-  .box-text p{
-    display: none;
+  .box-image img {
+    height: 30vh;
   }
   .box-text {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 3vh;
   }
     .articles h1 {
       padding-top: 45px;
