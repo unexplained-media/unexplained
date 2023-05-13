@@ -347,6 +347,17 @@ section.about {
   min-width: 500px;
 }
 
+.contact {
+  display: grid;
+  width: 60%;
+  padding: 10% 10% 20% 20%;
+  font-family: meno-banner, serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: justify;
+  align-items: center;
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -464,6 +475,10 @@ section.about {
       width: 90%;
       margin: auto;
     }
+    .contact-text {
+      width: 90%;
+      margin: auto;
+    }
     .article-links-instagram {
       width: 85%;
       margin: auto;
@@ -496,6 +511,19 @@ section.about {
     }
     .about-video-1 {
       z-index: 0;
+    }
+    section.contact {
+        width: 85%;
+        display: block;
+        margin: auto;
+        padding: 0;
+        height: 100vh;
+
+    }
+      section.contact-text p {
+      width: 90%;
+      margin: auto;
+      padding-top: 30vh;
     }
     footer {
       display: none;
