@@ -244,6 +244,7 @@ footer li a{
 .article-pages h2 {
   color: rgb(54, 36, 25);
 }
+
 .box-image {
   height: 220px;
   text-align: center;
@@ -450,9 +451,10 @@ section.about {
     padding: 3vh 0;
   }
   .article-pages .box {
-    height: 65vh;
+    height: 70vh;
+
     justify-content: center;
-    padding: 0 5vh 0 5vh;
+    padding: 5vh;
   }
   .box-image {
     height: 30vh;
@@ -531,4 +533,9 @@ section.about {
     footer {
       display: none;
     }
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+}
   }
