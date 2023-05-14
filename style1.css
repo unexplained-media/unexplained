@@ -420,6 +420,7 @@ section.about {
   .landing-video {
     height: 108vh;
     object-fit: cover;
+    object-position: left center;
   }
   .slide-1 {
     display: block;
