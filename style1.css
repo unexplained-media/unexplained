@@ -82,6 +82,7 @@ p {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 /* DISPLAY OF HEADER*/
 
@@ -442,7 +443,7 @@ section.about {
   }
   .article-pages {
     display: block;
-    overflow: inherit;  
+    overflow: inherit;
   }
   .article-pages h1 {
     padding: 3vh 0;
