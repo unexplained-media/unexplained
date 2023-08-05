@@ -194,7 +194,7 @@ footer li a{
 
 /* ARTICLE FORMATTING */
 .articles {
-  display: grid;
+  display: block;
   width: 60%;
   padding: 10% 10% 20% 20%;
   font-family: meno-banner, serif;
